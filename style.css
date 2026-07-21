@@ -751,3 +751,34 @@ font-size:30px;
 .whatsapp-float:hover{
     transform:scale(1.1);
 }
+.company-counter{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:70px 8%;
+    background:#f8f8f8;
+    text-align:center;
+}
+
+.counter-box{
+    background:#fff;
+    padding:35px 20px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.counter-box:hover{
+    transform:translateY(-8px);
+}
+
+.counter-box h2{
+    color:#d4a017;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.counter-box p{
+    font-size:18px;
+    color:#555;
+}
