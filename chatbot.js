@@ -35,8 +35,13 @@ function quickReply(action) {
             break;
 
         case "quote":
-            alert("Please fill the contact form or WhatsApp us for a free quotation.");
+            window.location.href = "#contact";
             break;
+        case "sitevisit":
+            window.open( "https://wa.me/917087938182?text=Hello%20AN%20Infra,%20I%20want%20to%20book%20a%20FREE%20Site%20Visit.",
+        "_blank"
+    );
+    break;
 
         case "services":
             window.location.href = "#services";
